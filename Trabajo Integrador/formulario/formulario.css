@@ -1,0 +1,350 @@
+body{
+    background-color:#00425a;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    font-size: medium;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 100px;
+    font-size: x-large;
+}
+
+body{
+   background-image: url(../16050829163655.jpg);
+   background-repeat: no-repeat;
+   background-size: 1900px;
+
+}    
+
+header{
+    margin-left: 20rem;
+    font-size: x-large;
+    color: rgb(239, 227, 227);
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 10rem;
+    box-shadow: 4px 4px 4px 4px ;
+}
+
+h1{
+    text-align: center;
+}
+.uno{
+    
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+
+.p{
+    margin-right: 800px;
+    margin-left: 50px;
+    color: white;
+    width: 500px;
+    height: 300px;
+    font-size: 20px;
+    
+    
+}
+
+
+.formulario{
+    float: right;
+    margin-right: 5rem;
+    /*border-top-style:inset;
+    border-right-style:inset ;
+    border-bottom-style:inset ;
+    border-left-style: inset;*/
+    
+
+}
+
+
+
+label{
+    font-size: xx-large;
+    color: #EFF5F5; 
+
+}
+input{
+    background-color:#EFF5F5; 
+    color: gray;
+    font-size: xx-large;
+
+}
+
+ ::placeholder{
+    font-size: xx-large;
+ }
+ #nombre{
+    width: 600px;
+ }
+ #date{
+    width: 600px; 
+}
+
+#tel{
+    width: 600px; 
+}
+#number{
+    width: 600px;
+}
+
+#document{
+    width: 600px;
+}
+
+
+#message{
+    width: 600px;
+}
+
+#submit{
+    width: 200px;
+}
+
+#clean{
+    width: 200px;
+}
+
+.botones{
+    float: right;
+}
+
+#clean:hover{
+    background-color: #00425a;
+    color: #EFF5F5;
+}
+
+#submit:hover{
+    background-color: #00425a;
+    color: #EFF5F5;
+}
+
+.pie{
+    text-align: center;
+    margin-top: 300px;
+ 
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+@media  screen and (max-width: 768px) {
+
+    header{
+        margin-left: -0.1rem;
+        margin-left: 8rem;
+        width: 500px;
+        box-shadow: 4px 4px 4px 4px ;
+    }
+    
+    h1{
+        font-size: x-large;
+    }
+
+   .p{
+    font-size: 15px;
+   }
+
+    .uno{
+        text-align: center;
+        margin-left: 4.5rem;
+        margin-top: -6rem;
+        margin-bottom: 0;
+        
+    }
+    
+    .formulario{
+     margin-top: -13rem;
+     float: left;
+     margin-left: 11.5rem;
+    }
+    #nombre{
+        width: 400px;
+     }
+    #date{
+        width: 400px; 
+    }
+   
+    
+    #telefono{
+        width: 400px; 
+    }
+    #number{
+        width: 400px;
+    }
+    
+    #document{
+        width: 400px;
+    }
+    
+    #tel{
+        width: 400px;
+    }
+    
+    #submit{
+        width: 100px;
+        font-size: medium;
+    }
+    
+    #clean{
+        width: 100px;
+        font-size: medium;
+    }
+
+    #message{
+        width: 400px;
+    }
+    
+    footer{
+        margin-top: 30rem;
+    }
+
+    label{
+        font-size: x-large;
+    }
+
+    
+        
+       
+} 
+
+@media  screen and (max-width:320px){
+    body{
+        margin: 0;
+    }
+
+
+    header{
+       font-size: xx-small;
+       box-sizing: border-box;
+       width: 190px;
+       margin-bottom: -0.1px;
+       margin-left: -1rem;
+       margin-left: 4rem;
+
+
+       
+    }
+    h1{
+        text-align: center;
+        font-size: small;
+
+    }
+
+    .p{
+
+        display: none;
+
+    }
+    .uno{
+        display: none;
+    }
+
+    .fo{
+        font-size: xx-small;
+       
+        
+
+    }
+
+    .formulario{
+        margin-top: 3rem;
+        margin-left: -1px;
+    }
+
+    #nombre{
+        width: 100px;
+        height: 20px;
+     }
+    #date{
+        width: 103px; 
+        height: 22px;
+        
+    }
+   
+    
+    #telefono{
+        width: 100px;
+        height: 20px; 
+    }
+    #number{
+        width: 100px;
+        height: 20px;
+    }
+    
+    #document{
+        width: 100px;
+        height: 20px;
+    }
+    
+    #tel{
+        width: 100px;
+        height: 20px;
+    }
+    
+    #submit{
+        width: 100px;
+        font-size: medium;
+        float: left;
+        margin-right: 0.1px;
+    }
+    
+    #clean{
+        width: 100px;
+        font-size: medium;
+
+    }
+
+    #message{
+        width: 100px;
+        height: 50px; 
+        margin-top: -5px;
+        margin-right: -35rem;
+        margin-left: 10.9rem;
+       
+    }
+    
+    footer{
+        margin-top: -15rem;
+    }
+
+    label{
+        font-size: 12px;
+        float: left;
+        margin-left: 30px;
+    
+    }
+    input{
+        font-size: 10px;
+        float: right;
+        margin-top: -1rem;
+        margin-right: -8.5rem;
+    }
+
+    textarea{
+       
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+    ::placeholder{
+        font-size: x-small;
+    }
+
+    
+    
+}
+
